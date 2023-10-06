@@ -1,0 +1,214 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<style type="text/css">
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    #enjin-bar, #page-footer {
+        display: none !important;
+    }
+    
+    a,p,div,h1,h2,h3,h4,span{
+        font-family: 'Montserrat';
+        color:#333;
+    }
+    
+    body {
+        background: #eee;
+    }
+    
+    #section-header, #section-footer {
+        display: none;
+    }
+    
+    .container.with-header {
+        background: #fff;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 12px;
+        border-radius: 10px 10px 5px 5px;
+    }
+    
+    .section-divider {
+        width: 10px !important;
+    }
+
+    .skater {
+        height: 500px;
+        position: relative;
+        background: url('https://i.pinimg.com/originals/a4/65/2f/a4652f38b20e9745932f7310e55a3b17.jpg');
+        width: 100%;
+        background-position: center;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .skater .serverImage {
+        transition: 300ms all ease-in-out;
+        margin-top: -80px;
+    }
+
+    .skater .serverImage:hover {
+        transform:scale(1.1, 1.1);
+    }
+
+    .skateNav {
+        background: #22A7F0;
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        max-width: 1060px;
+        margin: 0 auto;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 12px;
+    }
+    
+    .skateNav ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .skateNav ul li {
+        list-style-type: none !important;
+        width: 100% !important;
+    }
+    
+    .skateNav ul li a {
+        display: block;
+        color: #eee;
+        font-size: 15px;
+        padding: 20px;
+        position: relative;
+        text-align: center;
+        z-index: 99999;
+        text-decoration: none;
+        transition: 300ms all ease-in-out;
+    }
+    
+    .skateNav ul li a:hover {
+        background: #2980b9;
+    }
+    
+    .skateNav i {
+        display: block;
+    }
+    
+    .container.with-header .container_header .left, .container.with-header .container_header .right {
+        background-image: none !important;
+    }
+    
+    .container.with-header .container_header {
+        /*background: #22A7F0;*/
+        background: -webkit-linear-gradient(90deg, #22A7F0, #0f85c5);
+        background: -o-linear-gradient(90deg, #22A7F0, #0f85c5);
+        background: -moz-linear-gradient(90deg, #22A7F0, #0f85c5);
+        background: linear-gradient(90deg, #22A7F0, #0f85c5);
+        height: 50px !important;
+        border-radius: 5px 5px 0 0;
+    }
+    
+    .container.with-header .container_header .header_text_text {
+        color: #eee !important;
+        text-align: center;
+        font-family: 'Montserrat' !important;
+        position: relative;
+        font-weight: 300 !important;
+        padding-top: 16px !important;
+        text-transform: uppercase !important;
+    }
+    
+    .container.with-header .container_header .header_text_text:before {
+        content: '';
+        position: absolute;
+        bottom: -5px; 
+        left: 0;
+        right: 0;
+        height: 2px;
+        width: 50%;
+        margin: 0 auto;
+        background: #eee;
+    }
+    
+    .container.with-header .container_header .title .mask {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .skateFooter {
+        background: #22A7F0;
+        margin-top: 50px;
+        /*height: 250px;*/
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .skateFooter .footerInner {
+        padding: 40px 0;
+        text-align: center;
+    }
+    
+    .skateFooter img {
+        height: 150px;
+        width: auto;
+        padding-bottom: 5px;
+    }
+    
+    .skateFooter .footerText {
+        color: #eee;
+    }
+    
+    .skateFooter .footerTextdesign {
+        padding-top: 3px;
+        color: #eee;
+    }
+    
+    body > .user_tray a, #enjin-tray-messaging a, .chat-container-user a, body > .user_tray .element_username {
+        color: #0f85c5 !important;
+    }
+</style>
+
+<div class="skater">
+
+    <div class="serverImage">
+        <img src="https://lh3.ggpht.com/_FznlG1o-OeaZK_jc9k8sg38WnxKV-4ZmavRKxbu6kQr2rUt0LP8pG26XODti2G05I7v=w300">
+    </div>
+
+    <div class="skateNav">
+        <ul>
+            <li><a href="/home"><i class="material-icons">home</i>Home</a></li>
+            <li><a href="/forum"><i class="material-icons">forum</i>Forum</a></li>
+            <li><a href="/vote"><i class="material-icons">content_paste</i>Vote</a></li>
+            <li><a href="/about"><i class="material-icons">info</i>About</a></li>
+            <li><a href="/support"><i class="material-icons">help</i>Support</a></li>
+        </ul>
+    </div>
+
+</div>
+
+
+
+<div class="skateFooter">
+    <div class="footerInner">
+        <img src="https://lh3.ggpht.com/_FznlG1o-OeaZK_jc9k8sg38WnxKV-4ZmavRKxbu6kQr2rUt0LP8pG26XODti2G05I7v=w300">
+        <div class="footerText">&copy; Copyright Server Name</div>
+        <div class="footerTextdesign">Owned By Kyle</div>
+        <div class="footerTextdesign">Designed By TheSkateVeteran</div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+       $('.skater').prependTo('body');
+       $('.skateFooter').appendTo('body');
+    });
+</script>
